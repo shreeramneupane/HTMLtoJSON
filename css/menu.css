@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* Template Task menus */
+
+.menu-wrapper{width:400px; height:170px; float:right; margin-right:27px;}
+.menu-wrapper ul{margin:0px; padding:0px; list-style-type:none;}
+.menu-wrapper ul li{float:left; position:relative; margin-left:6px; margin-bottom:6px;}
+
+.big-menu{width:194px;}
+.small-menu{width:94px;}
+
+.big-menu a,.small-menu a{height:36px; color:#ffffff; font-size:20px; text-decoration:none; display:block; padding:34px 7px 12px 8px; font-family:"Times New Roman", Times, serif;}
+.big-menu span{font-size:16px; display:block; text-align:right;}
+.small-menu span{font-size:12px; display:block; text-align:right;}
+.menu-wrapper ul li a:hover{color:#000000;}
+
+/*sub menu*/
+.big-menu ul{display:none; right:0; min-width:194px;}
+.small-menu ul{display:none; right:0; min-width:94px;}
+
+.big-menu ul li,.small-menu ul li{margin:3px 0 0 0; clear:both; width:100%;}
+.big-menu ul li a,.small-menu ul li a{height:17px; line-height:12px; padding:3px 12px 3px 12px; font-size:12px; white-space:nowrap;}
+
+.menu-wrapper ul li ul{position:absolute; z-index:1;}
+.menu-wrapper ul li:hover ul{display:block;}
+
+/*color css*/
+.red,.red ul li{background-color:#bd103b;}
+.purple,.purple ul li{background-color:#511c74;}
+.yellow, .yellow ul li{background-color:#ffb900;}
+.green, .green ul li{background-color:#7fba00;}
+.gray, .gray ul li{background-color:#9da6b7;}
+.blue, .blue ul li{background-color:#1d6bdb;}
